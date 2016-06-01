@@ -1,0 +1,4 @@
+
+# Ignore vendor directory
+vendor
+composer.lock

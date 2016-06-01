@@ -1,0 +1,15 @@
+{
+    "name": "eyal-shalev/haveibeenpwned",
+    "description": "Symfony service that can test if a user/password combination exists in the haveibeenpwned database.",
+    "type": "library",
+    "require": {
+        "symfony/symfony": "2.*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Eyal Shalev",
+            "email": "eyalsh@gmail.com"
+        }
+    ]
+}
