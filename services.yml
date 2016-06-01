@@ -1,0 +1,7 @@
+parameters:
+  hibp.user_agent: 'eyal-shalev/haveibeenpwned'
+
+services:
+  hibp.client:
+    class: Haveibeenpwned\Client
+    arguments: ['%hibp.user_agent%']
