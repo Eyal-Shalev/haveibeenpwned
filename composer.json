@@ -4,7 +4,7 @@
   "type": "library",
   "require": {
     "php": ">=5.5.9",
-    "symfony/dependency-injection": "2.7.*",
+    "symfony/dependency-injection": "^2.7",
     "guzzlehttp/guzzle": "^6.1"
   },
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pwned\\": "src/"
+      "EyalShalev\\Pwned\\": "src/"
     }
   }
 }
