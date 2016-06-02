@@ -192,7 +192,7 @@ class Client
      * @return string[]
      * @throws \HttpResponseException
      *
-     * @see https://haveibeenpwned.com/API#SingleBreach
+     * @see https://haveibeenpwned.com/API#AllDataClasses
      */
     public function getDataClasses()
     {
