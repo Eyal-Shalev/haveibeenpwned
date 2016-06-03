@@ -205,4 +205,17 @@ class Client
         return static::$dataClasses;
     }
 
+    /**
+     * @param string $account_email
+     *   Only account email can be searched for paste information.
+     * @return array
+     * @throws \HttpResponseException
+     */
+    public function getAccountPastes($account_email)
+    {
+        return $this->decodeResponse(
+          $this->getResponse(['pasteaccount', $account_email])
+        );
+    }
+
 }
